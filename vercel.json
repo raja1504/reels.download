@@ -9,8 +9,8 @@
     ],
     "routes": [
         {
-            "src":"/(.download)",
-            "dest":"/"
+            "src":"/(.*)",
+            "dest":"/download"
         }
     ]
 }
